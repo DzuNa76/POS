@@ -19,7 +19,7 @@ A Flutter-based Point of Sale (POS) application.
 1. Ensure Flutter is installed on your system.
 2. Clone this repository:
    ```sh
-   git clone https://github.com/SandroDuarsa/pos.git
+   git clone https://github.com/DzuNa76/POS.git
    cd pos
    ```
 3. Install dependencies by running:
