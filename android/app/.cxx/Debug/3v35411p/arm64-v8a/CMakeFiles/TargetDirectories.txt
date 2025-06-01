@@ -1,0 +1,2 @@
+D:/project magang new/android/app/.cxx/Debug/3v35411p/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/project magang new/android/app/.cxx/Debug/3v35411p/arm64-v8a/CMakeFiles/rebuild_cache.dir

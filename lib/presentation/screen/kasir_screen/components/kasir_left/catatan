@@ -1,0 +1,80 @@
+Widget _buildSizeSelection() {
+    // Sample size options
+    final List<String> sizeOptions = ['Small', 'Medium', 'Large'];
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Text(
+          "Select Size",
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+        ),
+        const SizedBox(height: 8),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.grey),
+            borderRadius: BorderRadius.circular(4),
+          ),
+          child: Column(
+            children: sizeOptions
+                .map((size) => RadioListTile<String>(
+                      title: Text(size),
+                      value: size,
+                      groupValue: selectedOption,
+                      onChanged: (value) =>
+                          setState(() => selectedOption = value),
+                      dense: true,
+                      contentPadding: const EdgeInsets.symmetric(horizontal: 8),
+                    ))
+                .toList(),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildAddOns() {
+    // Sample add-on options
+    final List<String> addOnOptions = [
+      'Extra Topping',
+      'Spicy',
+      'Extra Sauce',
+      'No Ice'
+    ];
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Text(
+          "Add-ons",
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+        ),
+        const SizedBox(height: 8),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.grey),
+            borderRadius: BorderRadius.circular(4),
+          ),
+          child: Column(
+            children: addOnOptions
+                .map((feature) => CheckboxListTile(
+                      title: Text(feature),
+                      value: selectedFeatures.contains(feature),
+                      onChanged: (bool? value) {
+                        setState(() {
+                          if (value == true) {
+                            selectedFeatures.add(feature);
+                          } else {
+                            selectedFeatures.remove(feature);
+                          }
+                        });
+                      },
+                      dense: true,
+                      contentPadding: const EdgeInsets.symmetric(horizontal: 8),
+                    ))
+                .toList(),
+          ),
+        ),
+      ],
+    );
+  }

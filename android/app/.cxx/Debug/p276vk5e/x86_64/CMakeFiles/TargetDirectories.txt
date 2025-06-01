@@ -1,0 +1,2 @@
+C:/Users/ACER/Documents/Sem6/ThunderLab/Flutter/pos_team_2/pos/android/app/.cxx/Debug/p276vk5e/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/ACER/Documents/Sem6/ThunderLab/Flutter/pos_team_2/pos/android/app/.cxx/Debug/p276vk5e/x86_64/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,86 @@
+[
+  {
+    "branch": "main",
+    "is_using": 0,
+    "config": {
+      "is_customer_mandatory": false,
+      "is_using_outlet": false,
+      "is_using_discount": true,
+      "is_using_voucher": true,
+      "is_using_payment_channel": true,
+      "is_using_check_stock": false,
+      "is_using_therapist": false,
+      "is_using_list_product_discount_per_item": true,
+      "is_using_qty_item": false,
+      "is_using_kasbon": false,
+      "logo": "assets/vernon-logo.png"
+    },
+    "data_extension": {
+      "therapist": "",
+      "kasbon_account": ""
+    }
+  },
+  {
+    "branch": "monroe",
+    "is_using": 0,
+    "config": {
+      "is_customer_mandatory": false,
+      "is_using_outlet": false,
+      "is_using_discount": true,
+      "is_using_voucher": false,
+      "is_using_payment_channel": true,
+      "is_using_check_stock": false,
+      "is_using_therapist": false,
+      "is_using_list_product_discount_per_item": true,
+      "is_using_qty_item": false,
+      "is_using_kasbon": false,
+      "logo": "assets/monroe.png"
+    },
+    "data_extension": {
+      "therapist": "testing",
+      "kasbon_account": ""
+    }
+  },
+  {
+    "branch": "karmelindo",
+    "is_using": 1,
+    "config": {
+      "is_customer_mandatory": true,
+      "is_using_outlet": true,
+      "is_using_discount": false,
+      "is_using_voucher": true,
+      "is_using_payment_channel": false,
+      "is_using_check_stock": true,
+      "is_using_therapist": false,
+      "is_using_list_product_discount_per_item": false,
+      "is_using_qty_item": true,
+      "is_using_kasbon": true,
+      "logo": "assets/karmelindo.png"
+    },
+    "data_extension": {
+      "therapist": "",
+      "kasbon_account": "1111.001 - Kas Kecil - K"
+    }
+  },
+  {
+    "branch": "akira",
+    "is_using": 0,
+    "config": {
+      "is_customer_mandatory": false,
+      "is_using_outlet": false,
+      "is_using_discount": false,
+      "is_using_voucher": true,
+      "is_using_payment_channel": false,
+      "is_using_check_stock": false,
+      "is_using_therapist": true,
+      "is_using_list_product_discount_per_item": false,
+      "is_using_qty_item": false,
+      "is_using_kasbon": false,
+      "logo": "assets/akira.png"
+    },
+    "data_extension": {
+      "therapist": "testing",
+      "kasbon_account": "1111.001 - Kas Kecil - A"
+    }
+  }
+]
